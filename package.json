@@ -2,11 +2,10 @@
   "name": "camhendo",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
-    "deploy": "rm -rf dist/ && npm build && gh-page -d dist",
+    "deploy": "rm -rf dist/ && npm build && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/camhendo/camhendo",
@@ -316,7 +315,7 @@
     "nanomatch": "^1.2.13",
     "nice-try": "^1.0.5",
     "node-addon-api": "^1.7.2",
-    "node-forge": "^0.7.6",
+    "node-forge": ">=0.10.0",
     "node-libs-browser": "^2.2.1",
     "node-releases": "^1.1.70",
     "normalize-path": "^3.0.0",
